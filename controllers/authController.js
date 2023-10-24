@@ -26,7 +26,7 @@ export const registerUser = async (req, res, next) => {
 }
 
 export const loginUser = async (req, res, next) => {
-    const {secure} = req;
+    
     try {
         const user = await User.findOne({ email: req.body.email });
         if (!user) return next(ApiError.badRequest("User with this email doesn't exist"));
@@ -41,7 +41,9 @@ export const loginUser = async (req, res, next) => {
         const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET)
 
         const { password, ...other } = user._doc;
-        res.cookie("access_token", token, { secure, httpOnly: true, sameSite: 'None' }).status(200).json({ ...other, token })
+        // const {secure} = req;
+        // console.log(secure);
+        res.cookie("access_token", token, { secure: true, httpOnly: true, sameSite: 'None' }).status(200).json({ ...other, token })
     } catch (error) {
         next(error);
     }
