@@ -171,5 +171,3 @@ You can access a live demo of this project at https://airbnb-clone-client.onrend
 - Deployment:
   - Render.com
 
-## License
-This project is licensed under the [MIT License](LICENSE).
