@@ -3,7 +3,7 @@
 ## Description
 This is a full-stack web application project that serves as a clone of Airbnb. It allows users to search for and book accommodations, similar to Airbnb. Users can browse through a variety of listings, view details about properties, make reservations, and more. The project is built to demonstrate proficiency in full-stack web development.
 
-Perhaps it was a mistake for a novice full-stack programmer to do such an almost big project. At the end i was not implementing some features that i thougth about. A lot of time was spent designing the project, thinking about the design, creating custom components, and the logic of how everything should work (that’s why I didn't started doing responsive design). And i think it's enough to show my fullstack development progress.  During the development of this project and its design, I learned a lot of new things and a lot of useful things for future projects. 
+Perhaps it was a mistake for a novice full-stack programmer to do such an almost big project. At the end i was not implementing some features that i thougth about. A lot of time was spent designing the project, thinking about the design, creating custom components, and the logic of how everything should work (that’s why I didn't started doing responsive design). And i think it's enough to show my fullstack development progress. I did not used the best application architecture, as well as not the best CSS code and its structure, i understand this. During the development of this project and its design, I learned a lot of new things and a lot of useful things for future projects. 
 
 I will approach the next project more attentively and use all the knowledge and experience accumulated during the creation of this project.
 
@@ -11,9 +11,10 @@ I will approach the next project more attentively and use all the knowledge and 
   - No responsive design
   - Some of amenities doesn't actually match
   - Some forms don't have strong validation logic
-  - I'm aware that my CSS code and its structure are far from ideal in this context. I should be using Tailwind for this, I hope you won't judge my CSS too harshly. I haven't spent much time on css
 ## Demo
 You can access a live demo of this project at https://airbnb-clone-client.onrender.com/.
+## Demo Video 
+https://www.youtube.com/watch?v=Wj68E9SvLI8
 ## Features
 - User Authentication
 - Property Listings
@@ -171,3 +172,5 @@ You can access a live demo of this project at https://airbnb-clone-client.onrend
 - Deployment:
   - Render.com
 
+## License
+This project is licensed under the [MIT License](LICENSE).
